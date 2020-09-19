@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,500&display=swap");
 
 
-        H1 {font-family: Raleway}
+        H1 {font-family: Raleway;text-align: center;}
         H2 {font-family: Raleway}
         H3 {font-family: Raleway}
         H4 {font-family: Raleway}
