@@ -69,9 +69,9 @@ $titulo = "PRUEBA DE TITULO";
 $headers = "MIME-Version: 1.0\r\n"; 
 $headers .= "Content-type: text/html; charset=iso-8859-1\r\n"; 
 //dirección del remitente 
-$headers .= "From: Geeky Theory < tu_dirección_email >\r\n";
+$headers .= "From: Jorge Marles < jorgeandresmarlesflorez16.708@gmail.com >\r\n";
 //Enviamos el mensaje a tu_dirección_email 
-$bool = mail("tu_dirección_email",$titulo,$mail,$headers);
+$bool = mail("jorgeandresmarlesflorez16.708@gmail.com",$titulo,$mail,$headers);
 if($bool){
     echo "Mensaje enviado";
 }else{
